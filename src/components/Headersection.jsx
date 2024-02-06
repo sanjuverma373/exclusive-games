@@ -14,7 +14,7 @@ const Headersection = () => {
           <h1 className=' font-Anton font-normal text-[50px] sm:text-[72px] text-center leading-[50px] sm:leading-[86px] max-w-[505px] mx-auto text-white pb-4'>Exclusive Games. Pasión por ganar</h1>
           <p className=' font-Inter font-medium text-[14px] sm:text-[16px] leading-[25px] max-w-[727px] text-center text-[#CCCFD1] pb-[40px] '>En Exclusive Games somos un equipo apasionado de personas dedicados al desarrollo de multiplataformas para juegos de azar. A lo largo de nuestra vida consumimos todo tipo de juegos hasta que un día decidimos crear los propios.</p>
           <div className=' duration-300 hover:scale-95 relative'>
-            <div ><Commonbtns custom=" bg-gradient-to-r !from-[#7AF57A] !to-[#51C8EF] !text-black !border !border-0" text="Empezar" /></div>
+            <div className=' cursor-pointer' ><Commonbtns custom=" bg-gradient-to-r !from-[#7AF57A] !to-[#51C8EF] !text-black !border !border-0" text="Empezar" /></div>
             <span className=' absolute bottom-[-12%] left-[-3%]'><Btnline1 /></span>
           </div>         
         </div>
