@@ -17,7 +17,7 @@ const Preloadersection = () => {
         }, []);
         return (
                 <div>
-                        <div className=" duration-300 w-screen h-screen bg-black fixed top-0 start-0" style={{ display: isLoaded ? 'none' : 'block', zIndex: 9999 }}>
+                        <div className=" duration-300 w-screen h-screen bg-[url(./assets/images/hero-section-bg-img.webp)] bg-no-repeat bg-center bg-cover bg-black fixed top-0 start-0" style={{ display: isLoaded ? 'none' : 'block', zIndex: 9999 }}>
                                 <div className='flex items-center justify-center h-screen'>
                                         <div className="flex items-center justify-center  flex-colum gap-6">
                                                 <div className="loader animate-bounce aspect-square w-8 flex flex-col justify-center items-center">

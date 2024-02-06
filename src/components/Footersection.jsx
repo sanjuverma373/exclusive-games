@@ -5,8 +5,8 @@ import { Call, Facebook, Inn, Insta, Msg } from './Icons'
 const Footersection = () => {
         return (
                 <div className=' bg-black relative z-10'>
-                        <div className=' max-w-[1140px] px-3 mx-auto pt-[40px] sm:pt-[64px]'>
-                                <div className=' grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5'>
+                        <div className=' max-w-[1140px] px-3 w-full mx-auto pt-[40px] sm:pt-[64px]'>
+                                <div className=' grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5'>
                                         <div className='col-span-2'>
                                                 <img className=' pb-4' src={footerlogo} alt="#" />
                                                 <p className=' max-w-[348px] font-Inter font-medium  text-[14px] sm:text-[16px] leading-[25px] text-[#CCCCCC] pb-6'>En Exclusive Games somos un equipo apasionado de personas dedicadas al desarrollo de multiplataformas para juegos de azar</p>

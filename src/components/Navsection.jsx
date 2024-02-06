@@ -32,14 +32,14 @@ function Navsection() {
                                                         <Link to="/shop" onClick={() => setfirst(false)} className='cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-2 after:h-[2px] after:bg-white font-Inter text-[16px] font-medium leading-[25px] text-white'>Por qué elegirnos</Link>
                                                         <Link to="/shop" onClick={() => setfirst(false)} className='cursor-pointer transition after:duration-500 after:w-0 hover:after:w-full hover:after:left-0 after:absolute relative after:right-0 after:-bottom-2 after:h-[2px] after:bg-white font-Inter text-[16px] font-medium leading-[25px] text-white'>Ofertas</Link>
                                                         <Link className=' duration-300 hover:scale-95 block lg:hidden relative'>
-                                                                <button ><Commonbtns text="Acceso" /></button>
-                                                                <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
+                                                                <li ><Commonbtns text="Acceso" /></li>
+                                                                <span className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></span>
                                                         </Link>
                                                 </ul>
                                         </div>
                                         <div className=' duration-300 hover:scale-95 hidden lg:block relative'>
-                                                <button ><Commonbtns  text="Acceso" /></button>
-                                                <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
+                                                <div ><Commonbtns  text="Acceso" /></div>
+                                                <span className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></span>
                                         </div>
 
 
