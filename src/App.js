@@ -18,16 +18,16 @@ function App() {
   return (
     <div className='bg-[#00141B]'>
       <Preloadersection />
-      <Headersection />
-      <Misiónsection />
+      {/* <Headersection /> */}
+      {/* <Misiónsection /> */}
       <Marcasection />
       <Jackpotsection />
       <Cosionsection />
-      <Nuestras />
-      <Spinsection />
-      <Accordionsection />
-      <Lanzasection />
-      <Footersection />
+      {/* <Nuestras /> */}
+      {/* <Spinsection /> */}
+      {/* <Accordionsection /> */}
+      {/* <Lanzasection /> */}
+      {/* <Footersection /> */}
       <Backtop />
     </div>
   );

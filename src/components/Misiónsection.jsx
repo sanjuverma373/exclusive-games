@@ -4,7 +4,7 @@ import mision2 from '../assets/images/mision-img-2.webp'
 
 const Misiónsection = () => {
         return (
-                <div className=' pt-0 sm:pt-[74px]  pb-0 sm:pb-[80px] md:pb-[150px] mb[-172px] relative z-10 overflow-x-clip'>
+                <div className=' pt-[40px] sm:pt-[74px]  pb-0 sm:pb-[80px] md:pb-[150px] mb[-172px] relative z-10 overflow-x-clip'>
                         <div className=' max-w-[1140px] mx-auto px-3'>
                                 <div className=' grid lg:grid-cols-2'>
                                         <div className=' flex flex-col items-center lg:items-start justify-center lg:justify-start px-7'>
