@@ -74,8 +74,8 @@ const Marcasection = () => {
         <h3 className=' font-Anton font-normal text-[30px] sm:text-[48px] leading-[35px] sm:leading-[57px] text-black text-center pb-[24px] sm:pb-[60px]'>Nuestros Atributos de Marca</h3>
         <div className=' grid grid-cols-1 gap-9 md:grid-cols-2 lg:grid-cols-3  relative '>
           {Cardsdata}
-          <span className=' absolute top-[33%] right-[20%] left'><Arrowb /></span>
-          <span className=' absolute  top-[6%] left-[20%]'><Arrowt /></span>
+          <span className=' block lg:hidden absolute top-[33%] right-[20%] left'><Arrowb /></span>
+          <span className=' block lg:hidden absolute  top-[6%] left-[20%]'><Arrowt /></span>
         </div>
       </div>
       <div className=' max-w-[1140px] px-3 mx-auto w-full'>
