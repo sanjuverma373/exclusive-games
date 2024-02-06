@@ -7,7 +7,7 @@ const Headersection = () => {
   
   
   return (
-    <div className='bg-[url(./assets/images/hero-section-bg-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[810px]'>
+    <div className='bg-[url(./assets/images/hero-section-bg-img.webp)] bg-no-repeat bg-center bg-cover w-full min-h-[710px] sm:min-h-[810px]'>
       <Navsection />
       <div className=' max-w-[1140px] px-3 mx-auto w-full '>
         <div className=' flex flex-col items-center justify-center min-h-[618px]'>
