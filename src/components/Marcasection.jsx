@@ -60,7 +60,7 @@ const Marcasection = () => {
     <div key={index} className=' flex flex-col items-center w-full group justify-center relative'>
       <img className='w-full' src={slotsdata.img} alt="#" />
       <div className=' absolute group-hover:opacity-100 opacity-0 duration-300 bg-black rounded-[8px] z-20 w-full h-full justify-center items-center flex bg-opacity-80'>
-        <div className='duration-300 hover:scale-95 relative'>
+        <div className='duration-300 hover:scale-90 relative'>
           <button ><Commonbtns text="Jugar" /></button>
           <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
         </div>
@@ -87,8 +87,8 @@ const Marcasection = () => {
 
         </div>
         <div className=' flex items-center justify-center'>
-          <div className=' duration-300 hover:scale-95 relative'>
-            <button ><Commonbtns custom=" bg-gradient-to-r !from-[#7AF57A] !to-[#51C8EF] !text-black !border !border-0" text="Mostrar más" /></button>
+          <div className=' duration-300 hover:scale-90 relative'>
+            <button ><Commonbtns custom="bg-buttonbg hover:bg-buttonbg2 !text-black !duration-500 !border !border-0" text="Mostrar más" /></button>
             <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline1 /></a>
           </div>
         </div>

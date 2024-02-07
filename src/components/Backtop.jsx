@@ -20,10 +20,10 @@ const Backtop = () => {
         });
   return (
     <div>
-      <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed bottom-[20px] right-[20px] z-[100]`}
+      <button className={`back-to-top ${isVisible ? 'visible' : ''} fixed bottom-[14px] right-[14px] z-[100]`}
                                 onClick={scrollToTop}
                                 style={{ display: isVisible ? 'block' : 'none', }} >
-                                <div className='w-[40px] h-[40px] xs:w-[50px] xs:h-[50px] cursor-pointer rounded-full bg-[#FFFFFF] flex justify-center items-center'>
+                                <div className='w-[30px] h-[30px] xs:w-[50px] xs:h-[50px] cursor-pointer rounded-full bg-[#FFFFFF] flex justify-center items-center'>
                                         <img src={backtop} alt="#" />
                                 </div>
                         </button>

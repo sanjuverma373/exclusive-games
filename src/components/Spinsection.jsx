@@ -109,7 +109,7 @@ const Spinsection = () => {
                                                 </div>
                                                 <div className=' flex items-center justify-center'>
                                                         <div className=' duration-300 hover:scale-95 relative '>
-                                                                <button ><Commonbtns custom=" !bg-gradient-to-r !from-[#7AF57A] !to-[#51C8EF] !text-black !border !border-0" text="Comprar ahora" /></button>
+                                                                <button ><Commonbtns custom="bg-buttonbg hover:bg-buttonbg2 !text-black !duration-500 !border !border-0" text="Comprar ahora" /></button>
                                                                 <a className=' absolute bottom-[-13%] left-[-3%]' href=""><Btnline /></a>
                                                         </div>
                                                 </div>
@@ -150,7 +150,7 @@ const Spinsection = () => {
                                                 <div className=' flex items-center justify-center w-full group relative'>
                                                         <img className=' w-full' src={spin4img1} alt="#" />
                                                         <div className=' absolute group-hover:opacity-100 opacity-0 duration-300 bg-black rounded-[8px] z-20 w-full h-full justify-center items-center flex bg-opacity-80'>
-                                                                <div className=' relative'>
+                                                                <div className=' duration-300 hover:scale-90 relative'>
                                                                         <button ><Commonbtns text="Reproducir ahora" /></button>
                                                                         <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
                                                                 </div>
@@ -160,7 +160,7 @@ const Spinsection = () => {
                                                 <div className=' flex items-center justify-center w-full group relative'>
                                                         <img className=' w-full' src={spin4img2} alt="#" />
                                                         <div className=' absolute group-hover:opacity-100 opacity-0 duration-300 bg-black rounded-[8px] z-20 w-full h-full justify-center items-center flex bg-opacity-80'>
-                                                                <div className=' relative'>
+                                                                <div className='  duration-300 hover:scale-90 relative'>
                                                                         <button ><Commonbtns text="Reproducir ahora" /></button>
                                                                         <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
                                                                 </div>
@@ -169,7 +169,7 @@ const Spinsection = () => {
                                                 <div className=' flex items-center justify-center w-full group relative'>
                                                         <img className=' w-full' src={spin4img3} alt="#" />
                                                         <div className=' absolute group-hover:opacity-100 opacity-0 duration-300 bg-black rounded-[8px] z-20 w-full h-full justify-center items-center flex bg-opacity-80'>
-                                                                <div className=' relative'>
+                                                                <div className='  duration-300 hover:scale-90 relative'>
                                                                         <button ><Commonbtns text="Reproducir ahora" /></button>
                                                                         <a className=' absolute bottom-[-12%] left-[-3%]' href=""><Btnline /></a>
                                                                 </div>
