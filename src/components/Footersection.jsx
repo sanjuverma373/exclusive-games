@@ -4,7 +4,7 @@ import { Call, Facebook, Inn, Insta, Msg } from './Icons'
 
 const Footersection = () => {
         return (
-                <div className=' bg-black relative z-10'>
+                <div className=' bg-black relative'>
                         <div className=' max-w-[1140px] px-3 w-full mx-auto pt-[40px] sm:pt-[64px]'>
                                 <div className=' grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5'>
                                         <div className='col-span-2'>
@@ -54,8 +54,8 @@ const Footersection = () => {
                         </div>
                                 <hr className=' border border-solid border-white opacity-[10%] w-full' />
                                 <p className='font-Inter font-medium text-center mx-auto opacity-[50%] text-[16px] leading-[25px] text-[#CCCCCC] py-[20px]'>© Juegos exclusivos - Todos los derechos reservados {new Date().getFullYear()}</p>
-                                <span className=' w-full max-w-[180px] h-full max-h-[180px] bg-gradient-to-r from-[#51C8EF] to-[#7AF57A] flex absolute top-[28%] right-0 opacity-50 rounded-full blur-[90px] -z-10 '></span>
-                                <span className=' w-full max-w-[170px] h-full max-h-[170px] bg-gradient-to-r from-[#51C8EF] to-[#7AF57A] flex absolute bottom-0 left-0 opacity-50 rounded-full blur-[90px] -z-10 '></span>
+                                <span className=' w-[180px] h-[180px] bg-buttonbg flex absolute top-[28%] right-0 opacity-50 rounded-full blur-[90px]  '></span>
+                                <span className=' w-full max-w-[170px] h-full max-h-[170px] bg-buttonbg flex absolute bottom-0 left-0 opacity-50 rounded-full blur-[90px]  '></span>
                 </div>
         )
 }

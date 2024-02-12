@@ -50,7 +50,7 @@ const Accordionsection = () => {
                                         }
                                 </div >
                         </div>
-                        <span className=' w-full max-w-[394px] h-full max-h-[304px] bg-gradient-to-r from-[#51C8EF] to-[#7AF57A] flex absolute top-0 -left-[10%] opacity-50 rounded-full blur-[140px] -z-10 '></span>
+                        <span className=' w-full max-w-[394px] h-full max-h-[304px] bg-buttonbg flex absolute top-0 -left-[10%] opacity-50 rounded-full blur-[140px] -z-10 '></span>
                 </div>
         );
 };

@@ -11,7 +11,7 @@ import Footersection from '../components/Footersection';
 
 const Logosec = () => {
   return (
-    <div>              
+    <div>            
       
       <Misiónsection />
       <Marcasection />

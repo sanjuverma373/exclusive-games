@@ -96,8 +96,8 @@ const Jackpotsection = () => {
                                         </div>
                                 </div>
                         </div>
-                        <span className=' w-full max-w-[440px] h-full max-h-[440px] bg-gradient-to-r from-[#51C8EF] to-[#7AF57A] flex absolute bottom-[2%] right-[-10%] opacity-50 rounded-full blur-[155px] -z-10 '></span>
-                        <span className=' w-full max-w-[440px] h-full max-h-[440px] bg-gradient-to-r from-[#51C8EF] to-[#7AF57A] flex absolute top-[-20%] left-[-10%] opacity-50 rounded-full blur-[155px] -z-10 '></span>
+                        <span className=' w-full max-w-[440px] h-full max-h-[440px] bg-buttonbg flex absolute bottom-[2%] right-[-10%] opacity-50 rounded-full blur-[155px] -z-10 '></span>
+                        <span className=' w-full max-w-[440px] h-full max-h-[440px] bg-buttonbg flex absolute top-[-20%] left-[-10%] opacity-50 rounded-full blur-[155px] -z-10 '></span>
 
                 </div>
         )
