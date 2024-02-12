@@ -11,7 +11,7 @@ import { Btnline } from './Icons';
 
 const Jackpotsection = () => {
         return (
-                <div className='bg-[url(./assets/images/jackpot-bg-img.webp)] bg-no-repeat bg-center bg-cover relative z-10  overflow-x-clip '>
+                <div className='bg-[url(./assets/images/jackpot-bg-img.webp)] bg-no-repeat bg-center bg-cover relative z-10  overflow-x-clip sm:mt-0 mt-[-120px] '>
                         <div className=' max-w-[1140px] px-3 mx-auto pt-0 sm:pt-[90px] w-full '>
                                 <div className=' grid lg:grid-cols-2 gap-6'>
                                         <div className=' flex items-center justify-center lg:items-start lg:justify-start'>
