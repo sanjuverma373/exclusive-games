@@ -11,7 +11,7 @@ const Nuestras = () => {
                                                 <img className='w-full' src={spin1img1} alt="#" />
                                         </div>
                                         <div>
-                                                <h3 className='font-Anton text-center lg:text-start font-normal text-[30px] sm:text-[48px] leading-[35px] sm:leading-[57px] text-white mb-6 sm:mb-[60px]'>Más razones para elegirnos</h3>
+                                                <h3 className='font-Anton text-center lg:text-start font-normal text-[30px] sm:text-[48px] leading-[37px] text-white mb-6 sm:mb-[60px]'>Más razones para elegirnos</h3>
                                                 <div className=' border-[0.5px] border-solid border-white px-[20px] sm:px-[56px] rounded-[16px] py-[24px] leading-[57px] max-w-[374px] bg-gradient-to-r !from-[#051D20] !to-[#051D22] mb-6'>
                                                         <div className=' flex items-center gap-[37px]'>
                                                                 <Bulbmini />
